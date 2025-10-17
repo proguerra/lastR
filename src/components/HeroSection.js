@@ -11,8 +11,8 @@ const HeroSection = ({ videoOpacity }) => {
         </video>
       </div>
       <div className="hero-content">
-        <h1 className="hero-main-title">Katy’s Premier Jiu Jitsu Academy – Programs for Kids, Adults, and Families</h1>
-        <p className="hero-sub-text">Jiu Jitsu - Kids Jiu Jitsu - Personal Training - Private Training</p>
+        <h1 className="hero-main-title">Katys Premier Jiujitsu Academy</h1>
+        <p className="hero-sub-text">iu-Jitsu • Kids Jiu-Jitsu • Adult Gi & No-Gi • Competition & Homeschool Training</p>
         <a href="#contact" className="hero-cta-button">Book Your Trial Class</a>
       </div>
     </section>
