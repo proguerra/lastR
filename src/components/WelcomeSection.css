@@ -1,0 +1,81 @@
+/* src/components/WelcomeSection.css */
+
+.welcome-section {
+  padding: 80px 20px;
+  background-color: transparent; /* Make it transparent */
+}
+
+.welcome-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.welcome-text-content {
+  margin-bottom: 40px;
+}
+
+.welcome-seo-text {
+  font-family: var(--font-body);
+  font-size: 18px;
+  color: #FFFFFF; /* White text for contrast */
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+}
+
+.welcome-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto 30px;
+  text-align: left;
+  max-width: 600px;
+  display: inline-block;
+}
+
+.welcome-list li {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #FFFFFF; /* White text */
+}
+
+.welcome-info-button {
+  background-color: #FFFFFF;
+  color: var(--text-charcoal);
+  border: 2px solid #FFFFFF;
+  border-radius: 30px;
+  padding: 12px 30px;
+  font-family: var(--font-heading-secondary);
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: block;
+  margin: 30px auto 0;
+}
+
+.welcome-info-button:hover {
+  background-color: #f0f0f0;
+  border-color: #f0f0f0;
+}
+
+.welcome-image-wrapper img {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  object-fit: cover;
+  filter: grayscale(100%);
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .welcome-section {
+    padding: 60px 15px;
+  }
+  .welcome-seo-text, .welcome-list li {
+    font-size: 16px;
+  }
+  .welcome-list {
+    text-align: center;
+  }
+}

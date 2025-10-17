@@ -1,0 +1,77 @@
+[
+  {
+    "id": "1",
+    "name": "Professor Pablo Silva",
+    "bio": [
+      "#Professor Pablo Silva",
+      "*Black Belt",
+      "Pablo started his jiu jitsu journey at the age of 14 in his small hometown Mariana, Minas Gerais, Brazil. At age 16, Pablo made the difficult decision of leaving his hometown and family to train full time at the in Belo Horizonte. It was then that Pablo set his goal of becoming a Black Belt World Champion. In 2009, Pablo received his black belt and just one year later achieved his goal of winning the IBJJF World Championship at the Black Belt Adult level. Pablo has won all the major world titles in the sport of jiu jitsu as a black belt."
+    ],
+    "image": "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/6831/Pablo-Silva-158200.png"
+  },
+  {
+    "id": "2",
+    "name": "Professor Moon Kim",
+    "bio": [
+      "#Professor Moon Kim",
+      "*1st Degree Black Belt",
+      "*State Certified Physical Education/Health/Science Teacher",
+      "*Sports Performance Specialist",
+      "Professor Moon is a Christian and a firm believer in the value of hard work over entitlement. He rejects the modern “everyone gets a trophy” mindset, instead instilling in his students the belief that success must be earned. His philosophy is simple but powerful: consistent effort and resilience are the true keys to growth—both on the mat and in life.",
+      "A skilled Jiu Jitsu practitioner and former competitor, Professor Kim has used his deep understanding of both the sport and pedagogy to build a championship-winning team. By applying proven teaching methods to Jiu Jitsu instruction, he has created an environment where young athletes not only learn technique but develop character, confidence, and discipline. His team’s success in competition is a direct reflection of his high standards, his belief in accountability, and his ability to inspire kids to reach their full potential.",
+      "Professor Moon, has been training Jiu Jitsu since 2008 and was one of Professor Pablo's first students.  He began training Jiu Jitsu when he discovered how a smaller individual could easily dominate a larger opponent with the proper use of leverage and technique.",
+      "Professor Moon Kim brings over 16 years of experience teaching middle and high school students, combined with an extensive background in coaching youth sports. A dedicated educator and mentor, he is known for blending structure, discipline, and encouragement to bring out the best in his students and athletes...  Professor Moon is the founder of Reign Jiu Jitsu and also a sports performance specialist with the SpeedofSport. Combining his experience in education, coaching youth sports, personal training and Jiu Jitsu. His mission is to serve the community by transforming lives through Jiu Jitsu."
+    ],
+    "image": "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/6831/Moon-Kim-158202.png"
+  },
+  {
+    "id": "3",
+    "name": "New Instructor 1",
+    "bio": [
+      "#New Instructor 1",
+      "*Rank",
+      "Biography for New Instructor 1."
+    ],
+    "image": "https://placehold.co/440x300?text=New+Instructor+1"
+  },
+  {
+    "id": "4",
+    "name": "New Instructor 2",
+    "bio": [
+      "#New Instructor 2",
+      "*Rank",
+      "Biography for New Instructor 2."
+    ],
+    "image": "https://placehold.co/440x300?text=New+Instructor+2"
+  },
+  {
+    "id": "5",
+    "name": "New Instructor 3",
+    "bio": [
+      "#New Instructor 3",
+      "*Rank",
+      "Biography for New Instructor 3."
+    ],
+    "image": "https://placehold.co/440x300?text=New+Instructor+3"
+  },
+  {
+    "id": "6",
+    "name": "New Instructor 4",
+    "bio": [
+      "#New Instructor 4",
+      "*Rank",
+      "Biography for New Instructor 4."
+    ],
+    "image": "https://placehold.co/440x300?text=New+Instructor+4"
+  },
+  {
+    "id": "7",
+    "name": "New Instructor 5",
+    "bio": [
+      "#New Instructor 5",
+      "*Rank",
+      "Biography for New Instructor 5."
+    ],
+    "image": "https://placehold.co/440x300?text=New+Instructor+5"
+  }
+]
