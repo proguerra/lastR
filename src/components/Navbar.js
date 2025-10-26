@@ -67,7 +67,6 @@ const Navbar = () => {
           <li className="dropdown">
             <a href="#more" onClick={(e) => handleDropdownClick(e, 'more')}>More</a>
             <ul className={`dropdown-menu ${openDropdown === 'more' ? 'open' : ''}`}>
-              <li><Link to="/affiliate-schools" onClick={closeMobileMenu}>Affiliate Schools</Link></li>
               <li><Link to="/contact" onClick={closeMobileMenu}>Contact Us</Link></li>
               <li><Link to="/about" onClick={closeMobileMenu}>About / Our Method</Link></li>
               <li><Link to="/blog" onClick={closeMobileMenu}>Blog</Link></li>
@@ -77,14 +76,17 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-logo">
-        <Link to="/">REIGN BJJ</Link>
+        <Link to="/">REIGN JIU JITSU</Link>
       </div>
       <div className="navbar-right">
+        <div className="navbar-contact">
+          <a href="tel:17134466008">Call or text (713) 446-6008</a>
+        </div>
         <div className="social-icons">
-          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <a href="https://www.facebook.com/ReignJiuJitsu/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
             <FaFacebook />
           </a>
-          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <a href="https://www.instagram.com/reignjiujitsu/?hl=en" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
             <FaInstagram />
           </a>
         </div>

@@ -20,6 +20,17 @@ const Facility = () => {
           </div>
         ))}
       </div>
+      <div className="facility-video-wrapper">
+        <div className="facility-video">
+          <iframe
+            src="https://www.youtube.com/embed/0zh97sdP8-k"
+            title="Reign Jiu Jitsu Facility Tour"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
     </section>
   );
 };

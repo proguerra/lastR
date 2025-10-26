@@ -2,7 +2,7 @@
 
 .cta-section {
   padding: 80px 20px;
-  background-color: #F9F9F9; /* Light gray to stand out */
+  background-color: var(--background-primary);
   text-align: center;
 }
 

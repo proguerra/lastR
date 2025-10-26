@@ -2,13 +2,17 @@
 
 .welcome-section {
   padding: 80px 20px;
-  background-color: transparent; /* Make it transparent */
+  background-color: transparent;
 }
 
 .welcome-container {
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
+  background-color: var(--background-primary);
+  padding: 60px 40px;
+  border-radius: 18px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
 }
 
 .welcome-text-content {
@@ -18,7 +22,7 @@
 .welcome-seo-text {
   font-family: var(--font-body);
   font-size: 18px;
-  color: #FFFFFF; /* White text for contrast */
+  color: var(--text-medium-gray);
   line-height: 1.7;
   max-width: 800px;
   margin: 0 auto 20px auto;
@@ -36,13 +40,13 @@
 .welcome-list li {
   margin-bottom: 15px;
   font-size: 16px;
-  color: #FFFFFF; /* White text */
+  color: var(--text-charcoal);
 }
 
 .welcome-info-button {
-  background-color: #FFFFFF;
-  color: var(--text-charcoal);
-  border: 2px solid #FFFFFF;
+  background-color: var(--text-charcoal);
+  color: var(--background-primary);
+  border: 2px solid var(--text-charcoal);
   border-radius: 30px;
   padding: 12px 30px;
   font-family: var(--font-heading-secondary);
@@ -50,13 +54,15 @@
   font-weight: 700;
   cursor: pointer;
   transition: all 0.3s ease;
-  display: block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   margin: 30px auto 0;
 }
 
 .welcome-info-button:hover {
-  background-color: #f0f0f0;
-  border-color: #f0f0f0;
+  background-color: transparent;
+  color: var(--text-charcoal);
 }
 
 .welcome-image-wrapper img {
@@ -71,6 +77,9 @@
 @media (max-width: 768px) {
   .welcome-section {
     padding: 60px 15px;
+  }
+  .welcome-container {
+    padding: 45px 25px;
   }
   .welcome-seo-text, .welcome-list li {
     font-size: 16px;

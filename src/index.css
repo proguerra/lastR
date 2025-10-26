@@ -3,6 +3,7 @@
 :root {
   /* Color Palette */
   --background-primary: #FFFFFF;
+  --background-secondary: #CCCCCC;
   --text-charcoal: #545454;
   --text-dark-gray: #8f8d8d;
   --text-medium-gray: #444444;
@@ -21,7 +22,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--background-primary);
-  color: var(--text-dark-gray);
+  color: var(--text-medium-gray);
   font-size: 18px;
   line-height: 1.6;
   transition: background-color 0.4s ease, color 0.4s ease;
