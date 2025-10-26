@@ -12,7 +12,7 @@ const HeroSection = ({ videoOpacity }) => {
       </div>
       <div className="hero-content">
         <h1 className="hero-main-title">Katys Premier Jiujitsu Academy</h1>
-        <p className="hero-sub-text">iu-Jitsu • Kids Jiu-Jitsu • Adult Gi & No-Gi • Competition & Homeschool Training</p>
+        <p className="hero-sub-text">Jiu-Jitsu • Adult Gi & No-Gi • Kids Jiu-Jitsu • Competition & Homeschool Training</p>
         <a href="#contact" className="hero-cta-button">Book Your Trial Class</a>
       </div>
     </section>
