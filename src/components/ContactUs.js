@@ -50,6 +50,9 @@ const ContactUs = () => {
         </div>
         <div className="contact-form-container">
           <h2 className="section-title">Contact Us</h2>
+          <p className="contact-phone">
+            Call or text us at <a href="tel:17134466008">(713) 446-6008</a>
+          </p>
           <form onSubmit={handleSubmit}>
             <input
               type="text"

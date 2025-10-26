@@ -57,6 +57,22 @@
   transform: translateX(-50%);
 }
 
+.navbar-contact {
+  margin-right: 20px;
+  font-family: var(--font-heading-secondary);
+  font-weight: 600;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.navbar-contact a {
+  color: var(--text-charcoal);
+}
+
+.navbar-contact a:hover {
+  color: var(--text-dark-gray);
+}
+
 .navbar-links {
   list-style: none;
   padding: 0;
@@ -155,6 +171,9 @@
     position: static;
     transform: none;
     text-align: left;
+  }
+  .navbar-contact {
+    display: none;
   }
   .social-icons {
     display: none; /* Hide social icons on mobile to save space */

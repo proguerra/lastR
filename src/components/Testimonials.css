@@ -2,7 +2,7 @@
 
 .testimonials-section {
   padding: 80px 20px;
-  background-color: #F9F9F9;
+  background-color: var(--background-secondary);
 }
 
 .testimonials-container {
